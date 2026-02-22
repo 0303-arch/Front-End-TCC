@@ -1,0 +1,73 @@
+/* Cor de fundo */
+body{
+     background-color: #12363F;
+}
+
+/* Container com todas as outras div's */
+.principalContainer{
+    display: flex;
+}
+
+
+/* Div de título */
+.titulo, h1{
+    color: #C9BAB0;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/* Div com o paragrafo abaixo do SPECTRUM TI */
+.titulo, p{
+    margin-left: 25px;
+    font-size: medium;
+}
+
+/* Imagem principal */
+.img1, img{
+    display: block;
+    border-radius: 5%;
+    height: 340px;
+    width: 340px;
+    margin-left: 50px;
+    margin-top: 9%;
+}
+
+/* Links da Navbar */   
+
+.navbar {
+    width: 100%;
+    display: flex;
+    gap: 40px;      
+    justify-content: end ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+header, siteName{
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, navbar, a:link{
+    color: #C9BAB0;
+    list-style: none;
+}
+
+header, navbar, a:hover{
+    color: #C9BAB0;
+}
+header, navbar, a:visited{
+    color: #C9BAB0;
+}
+header, navbar, a:active{
+    color: #C9BAB0;
+}
+
