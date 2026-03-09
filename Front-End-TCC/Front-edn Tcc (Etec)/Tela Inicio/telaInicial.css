@@ -1,0 +1,116 @@
+/* Cor de fundo */
+body{
+     background-color: #12363F;
+}
+
+/* Container com todas as outras div's */
+.principalContainer{
+    display: flex;
+}
+.siteName{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Div de título */
+.titulo, h1{
+    color: #C9BAB0;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+/* Div com o paragrafo abaixo do SPECTRUM TI */
+.titulo, p{
+    margin-left: 25px;
+    font-size: medium;
+    margin-top: -5px;
+}
+
+
+/* botão */
+.button-74 {
+  margin-left: 20px;
+  background-color: #C9BAB0;
+  border: 2px solid #422800;
+  border-radius: 0px;
+  box-shadow: black 4px 4px 0 0;
+  color:#12363F;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+/* Imagem principal */
+.img1, img{
+    display: block;
+    border-radius: 5%;
+    height: 37  0px;
+    width: 370px;
+    margin-left: 70px;
+    margin-top: 4%;
+}
+
+/* Links da Navbar */   
+
+.navbar {
+    width: 100%;
+    display: flex;
+    gap: 40px;      
+    justify-content: end ;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+header, siteName{
+    margin-top: 5px;
+    padding-right: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, navbar, a:link{
+    color: #C9BAB0;
+    list-style: none;
+}
+
+header, navbar, a:hover{
+    color: #C9BAB0;
+}
+header, navbar, a:visited{
+    color: #C9BAB0;
+}
+header, navbar, a:active{
+    color: #C9BAB0;
+}
+
+
+
